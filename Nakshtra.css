@@ -1,0 +1,81 @@
+ /* Add CSS styles here */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+  }
+  .typewriter {
+    font-family: Arial;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    border-right: .15em solid #000;
+    animation: typing 3s steps(40, end),
+              blink-caret .5s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #000; }
+  }
+ 
+  body {
+background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/058/793/small/abstract-blur-with-bokeh-light-for-background-usage-vector.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 100vh;
+}
+.play-audio-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h4 {
+  color: #4CAF50;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  text-shadow: 2px 2px #f5f5f5;
+}

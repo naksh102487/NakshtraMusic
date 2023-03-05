@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      form {
+        width: 400px;
+        margin: auto;
+        text-align: center;
+        padding: 50px;
+        box-shadow: 2px 2px 10px #ccc;
+        border-radius: 10px;
+        background-color: white;
+      }
+
+      label {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        display: block;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 2px 2px 5px #ccc;
+        font-size: 18px;
+        text-align: center;
+      }
+
+      input[type="submit"] {
+        width: 50%;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 2px 2px 5px #ccc;
+        background-color: skyblue;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 0.5s;
+        display: block;
+        margin: 20px auto;
+      }
+
+      input[type="submit"]:hover {
+        background-color: lightblue;
+        transform: translateY(-2px);
+        box-shadow: 2px 4px 5px #ccc;
+      }
+
+      input[type="submit"]:active {
+        transform: translateY(2px);
+        box-shadow: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form name="songname" method="POST" data-netlify="true">
+      <label for="name">Name of User:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+<br>
+      <label for="song">Song Name:</label>
+      <input type="text" id="song" name="song" placeholder="Enter song name">
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
